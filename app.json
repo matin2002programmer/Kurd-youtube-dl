@@ -5,9 +5,9 @@
   "keywords": [
     "Youtube","YoutubeDownloader"
   ],
-  "repository": "https://github.com/matin2002programmer/Youtube-Downloader-Bot",
+  "repository": "https://github.com/matin2002programmer/Kurd-youtube-dl",
   "success_url": "https://t.me/youtubdlbot",
-  "website": "https://github.com/matin2002programmer/Youtube-Downloader-Bot",
+  "website": "https://github.com/matin2002programmer/Kurd-youtube-dl",
   "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
