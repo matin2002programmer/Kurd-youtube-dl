@@ -1,4 +1,4 @@
-# Youtube Dl bot 😉
+# Youtube dl bot in telegram 😁
 ## Prerequisite
     ffmpeg
   
@@ -12,8 +12,6 @@
     - install dependencies
     - python3 -m bot
     
-## Thanks ❤️
-* [Spechide](https://telegram.dog/SpEcHIDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-* [HasibulKabir](https://telegram.dog/HasibulKabir)
+## Thanks you ❤️
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/matin2002programmer/Kurd-youtube-dl/tree/master)
