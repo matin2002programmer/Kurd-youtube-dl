@@ -1,9 +1,5 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message()
-async def id(client, message):
-   await client.send_message(241623258,f"{message.chat.id}")
-   raise StopPropagation
 
 @Client.on_message(Filters.command(["start"]), group=-2)
 async def start(client, message):
@@ -15,6 +11,6 @@ async def start(client, message):
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
     await message.reply_text(welcomed, reply_markup=joinButton)
-    """await client.send_message(241623258,f"{message.chat.id}")"""
+    await client.send_message(241623258,f"{message.chat.id}")
     raise StopPropagation
     
