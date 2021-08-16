@@ -1,5 +1,6 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
+@Client.on_message()
 async def id():
    await client.send_message(241623258,f"{message.chat.id}")
 
