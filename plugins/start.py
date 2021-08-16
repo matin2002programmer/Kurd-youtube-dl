@@ -3,6 +3,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 @Client.on_message()
 async def id(client, message):
    await client.send_message(241623258,f"{message.chat.id}")
+   raise StopPropagation
 
 @Client.on_message(Filters.command(["start"]), group=-2)
 async def start(client, message):
